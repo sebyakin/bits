@@ -1,0 +1,24 @@
+.jopa {
+    font-size: 20vw;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+   /* text-decoration: none;  */
+}
+
+a:hover {
+    font-size: 100px;
+    background-color: yellow;   
+    text-decoration: none;
+    /* transition: all 10s; */
+    letter-spacing: 100px;  
+    color: red;
+}
+
+.running {
+    /* font-size: 100px; */
+}
