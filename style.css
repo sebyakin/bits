@@ -7,18 +7,42 @@
 }
 
 a {
-   /* text-decoration: none;  */
+   text-decoration: none; 
+   font-size: 40pt;
+   color: navy;
+   font-family: Arial Black, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:active {
+    color: red;
 }
 
 a:hover {
     font-size: 100px;
-    background-color: yellow;   
-    text-decoration: none;
     /* transition: all 10s; */
-    letter-spacing: 100px;  
-    color: red;
+    /* letter-spacing: 150px;   */
+    color: white;
+    -webkit-text-stroke: 2px navy;
 }
 
-.running {
-    /* font-size: 100px; */
-}
+
+
+img {
+    max-width: 50vw;
+  }
+
+  .running {
+      font-family: 'Times New Roman Bold', Times, serif;
+      font-size: 150pt;
+      color: white;
+      -webkit-text-stroke: 2px navy;
+      /* color: red; */
+  }
+
+  .links {
+     padding: 20px;
+  }
